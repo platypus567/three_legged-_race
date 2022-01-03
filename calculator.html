@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator from HELL</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script src="index.js"></script>
+    <center><h1>Calculator from HELL</h1></center>
+
+    <center><table border="1">
+    
+
+     <tr>
+        <td colspan="3"><input type="text" id="result"/></td>
+            <!-- clr() function will call clr to clear all value -->
+        <td><input type="button" value="c" onclick="clear()"/> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1" onclick="get('1')"/> </td>
+        <td><input type="button" value="2" onclick="get('2')"/> </td>
+        <td><input type="button" value="3" onclick="get('3')"/> </td>
+        <td><input type="button" value="/" onclick="get('/')"/> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="get('4')"/> </td>
+        <td><input type="button" value="5" onclick="get('5')"/> </td>
+        <td><input type="button" value="6" onclick="get('6')"/> </td>
+        <td><input type="button" value="*" onclick="get('*')"/> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="8" onclick="get('8')"/> </td>
+        <td><input type="button" value="9" onclick="get('9')"/> </td>
+        <td><input type="button" value="0" onclick="get('0')"/> </td>
+        <td><input type="button" value="-" onclick="get('-')"/> </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="" </td>
+        <td><input type="button" value="." onclick="get('.')"/> </td>
+        
+        <td><input type="button" value="=" onclick="solve()"/> </td>
+        <td><input type="button" value="+" onclick="get('+')"/> </td>
+    </tr>
+
+    </table></center>
+
+
+  </body>
+</html>
